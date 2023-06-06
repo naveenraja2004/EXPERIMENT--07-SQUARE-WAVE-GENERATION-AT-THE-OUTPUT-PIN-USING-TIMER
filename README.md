@@ -342,37 +342,43 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
- 
+ ![exp7 output](https://github.com/naveenraja2004/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707204/2a8b246f-58c6-4f0f-90ec-5f4acf1d50f2)
+
   
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![exp7 circuit dia](https://github.com/naveenraja2004/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707204/cd07f73f-c609-419f-b63b-98d7d3d32ad1)
+
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
+![exp7 duty cycle1](https://github.com/naveenraja2004/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707204/3c579ec8-8db8-4bc9-8fb4-a091027add6f)
 
-TON = 
-TOFF=
-TOTAL TIME = 
+TON = 2
+TOFF=2
+TOTAL TIME =4 
 FREQUENCY = 1/(TOTAL TIME)
+Frequency = 250Hz
 
 FOR PULSE AT 700
+![exp7 duty cycle2](https://github.com/naveenraja2004/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707204/a927f090-f4da-41f3-8a6f-db265d0d8e56)
 
-TON = 
-TOFF=
-TOTAL TIME = 
+TON = 3
+TOFF=1
+TOTAL TIME = 4
 FREQUENCY = 1/(TOTAL TIME)
-
+Frequency = 250Hz
 
 FOR PULSE AT 900
+![exp7 duty cycle3](https://github.com/naveenraja2004/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/118707204/388f6049-6a98-4cde-8291-2a75b1c45187)
 
-TON = 
-TOFF=
-TOTAL TIME = 
+TON = 3.5
+TOFF=0.5
+TOTAL TIME = 4
 FREQUENCY = 1/(TOTAL TIME)
-
+Frequency = 250Hz
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
